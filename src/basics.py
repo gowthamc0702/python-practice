@@ -17,3 +17,32 @@ print(greet(input("Enter your name :")))
 name ="GG"
 age =23
 print(f"TOP {name}, {age*10} bro")
+
+
+grid = [
+    [1,2,3,4],
+    [5,6,7,8],
+    [9,10,11,12]    
+]
+
+for row in grid:
+    for col in row:
+        print(col)
+expense =[
+    {
+        "name":"Food",
+        "amount":250.5,
+        "note":"snacks"
+    },
+    {
+        "name":"TV",
+        "amount":100.75,
+        "note":"Recharge"
+    }
+]
+total=0.0
+for i,e in enumerate(expense,start=1):
+    total=total+e["amount"]
+    print(f"{i}. | {e['name']} | {e['amount']} | {e['note']}")
+
+print(total)
