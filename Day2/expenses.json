@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Food",
+    "amount": 120
+  },
+  {
+    "name": "Travel",
+    "amount": 400
+  },
+  {
+    "name": "Snacks",
+    "amount": 50
+  },
+  {
+    "name": "Shopping",
+    "amount": 999
+  }
+]
