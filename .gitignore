@@ -1,7 +1,27 @@
-@"
-venv/
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+venv/
+env/
 .env
-.idea/
+
+# IDEs
 .vscode/
-"@ > .gitignore
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data / outputs
+*.csv
+*.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
